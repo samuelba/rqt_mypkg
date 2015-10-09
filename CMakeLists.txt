@@ -4,10 +4,7 @@ project(rqt_mypkg)
 # Load catkin and all dependencies required for this package
 find_package(catkin REQUIRED COMPONENTS 
     rqt_gui 
-    rqt_gui_cpp 
-    sensor_msgs 
-    argos_inspection_msgs
-    roslib
+    rqt_gui_cpp
 )
 
 find_package(Qt4 COMPONENTS QtCore QtGui REQUIRED)
